@@ -45,9 +45,9 @@
 							include_once("./template/contact.html");
 						}
 						else if($root>3 || $root==0){
-                            include_once("./404page.html");
+                            include_once("./404page.php");
 							//echo '<p class="warning"><i class="far fa-frown"></i> La page demandée n\'existe pas!!</p>';
-							header("HTTP/2.0 404 Not Found");
+							//header("HTTP/1.0 404 Not Found");
 						}
 
 				}

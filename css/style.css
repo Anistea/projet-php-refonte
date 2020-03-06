@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i');
 
+html{
+    font-size: 62.5%;
+}
 body{
-		font:16px 'Open Sans',sans-serif;
+		font:1.6rem 'Open Sans',sans-serif;
 		margin:0;
 	}
 	*{
@@ -161,7 +164,7 @@ section input[type="submit"]{
 	margin-top:5px;
 	font-size: 1rem;
 	width: 100px;
-	background: #558B2F;
+	background: #348B2F;
 	color: #fafafa;
 	cursor: pointer;
 	transition-duration: 0.5s;
